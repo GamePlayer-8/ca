@@ -1,0 +1,43 @@
+name: Compile source.
+on:
+  push:
+    branches:
+      - master
+      - main
+
+jobs:
+  Master:
+    runs-on: ubuntu-latest
+
+    container: alpine
+
+    steps:
+        - name: ^ Checkout
+          uses: actions/checkout@v3
+
+        - name: Create build dir.
+          run: mkdir /source
+
+        - name: Copy data.
+          run: |
+              cp -r * /source/
+              cp -r .github /source/
+
+        - name: Set up environment.
+          run: |
+              apk add --no-cache jq curl
+              echo "GIT_TOKEN=${{ secrets.GITHUB_TOKEN }}" >> $GITHUB_ENV
+              echo "GIT_PROJECT_NAME=${{ github.event.repository.name }}" >> $GITHUB_ENV
+              echo "GIT_USERNAME=${{ github.repository_owner }}" >> $GITHUB_ENV
+              echo "GIT_REPO=${{ github.repository }}" >> $GITHUB_ENV
+              echo "GIT_DOMAIN=$(curl -s "https://api.github.com/repos/${{ github.repository_owner }}/${{ github.event.repository.name }}" | jq -r '.homepage' | cut -d "/" -f 3)" >> $GITHUB_ENV
+              echo "GIT_WEBPAGE=https://$(curl -s "https://api.github.com/repos/${{ github.repository_owner }}/${{ github.event.repository.name }}" | jq -r '.homepage' | cut -d "/" -f 3)" >> $GITHUB_ENV
+
+        - name: Run Init.
+          run: cd /source && sh init.sh
+
+        - name: Deploy branch
+          run: |
+              apk add --no-cache git bash
+              bash /source/scripts/gh-pages.sh
+
