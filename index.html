@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+
+<html lang="en-US">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Certificates</title>
+  <meta name="icon" content="docs/index.svg" />
+  <meta name="viewport" content="width=device-width,height=device-height,initial-scale=1.0" />
+  <link rel="stylesheet" href="docs/viewport.css" />
+  <link rel="stylesheet" href="docs/scroll.css" />
+  <link rel="stylesheet" href="docs/style.css" />
+  <link rel="stylesheet" href="docs/lgbt.css" />
+  <link rel="icon" href="docs/index.svg" />
+</head>
+
+<body>
+  <div class="header">
+    <b class="trans-text-horizontal">%REALNAME%</b>
+    <div>
+      <a href="/index.html"><b>Start Page</b></a>
+      <a href="/i2p" class="darkweb"><i>I2P</i></a>
+      <a href="/tor" class="darkweb"><i>Tor</i></a>
+    </div>
+
+    <b>Certificates</b>
+  </div>
+
+  <div class="content">
+    A certificate for web browsers is available <a href="ca/certificate.crt">here</a>.
+
+    <br/>
+    <br/>
+    Installation:
+    <br/>
+
+    For Linux you can use an installer for Debian-based distros (<a href="installers/cert_debian.sh">link here</a>)
+    and for Arch-based distros (<a href="installers/cert_arch.sh">link here</a>). Eventually you can follow the instructions
+    of how to install a custom CA for your distro.
+
+    <br/><br/>
+
+    For Windows there's a batch file <a href="installers/cert_windows.bat">installer</a>. You can run it through <b>cmd.exe</b>
+    or by clicking on it.
+
+    <br/><br/>
+
+    For Mac OS X you will need to download a <a href="ca/certificate.crt">certificate file</a>, open it with your file explorer
+    and in the popup menu, press <b>Always Trust</b>.
+
+    <br/><br/>
+
+    For Android you will need to download a <a href="ca/certificate.crt">certificate file</a>,
+    <br/>
+    go to the <b>device settings</b> -> <b>Security</b> -> <b>Encryption & Credentials</b> -> <b>Install from storage</b>
+    -> <b>Install a certificate</b> -> <b>select CA Certificate</b> -> <b>Pick the downloaded certificate</b> and add it.
+  </div>
+
+  <div class="blahaj">
+    <img src="docs/blahaj.png" width="50" alt=":shork:"/>
+  </div>
+
+  <div class="footer">
+    This site is <a href="https://github.com/%GIT_USERNAME%/%GIT_PROJECT_NAME%"><i>open source</i></a> on license Akini 3.1.
+    <br/>Site embeds:<br/>
+    <iframe src="/embeds.html" class="embeds"></iframe>
+  </div>
+
+</body>
+
+</html>
