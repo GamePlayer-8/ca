@@ -1,5 +1,5 @@
 <p align="center">
-	<a href="https://%WEBSITE%">
+	<a href="https://chimmie.k.vu">
 		<img src="docs/README-icon.png" width="200">
 		<h1 align="center">XaviaMa Certificates</h1>
 	</a>
