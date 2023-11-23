@@ -13,4 +13,5 @@ steps:
     image: alpine
 
     commands:
+      - apk add --no-cache openssl
       - sh test.sh

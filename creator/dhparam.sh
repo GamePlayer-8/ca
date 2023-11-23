@@ -1,11 +1,15 @@
 #!/bin/sh
 
 SCRIPT_PATH="$(dirname "$(realpath "$0")")"
-DH_NAME="${DH_NAME:-services}"
+KEYS_PATH="${KEYS_PATH:-$SCRIPT_PATH/priv}"
+DH_NAME="${DH_NAME:-www}"
+DH_SIZE="${DH_SIZE:-8192}"
 
-cd "$SCRIPT_PATH"
+if ! [ -d "$KEYS_PATH" ]; then
+    mkdir -p "$KEYS_PATH"
+fi
 
-set -o verbose
+cd "$KEYS_PATH"
 
-openssl dhparam -out priv/"$DH_NAME".pem 8192
+openssl dhparam -out "$DH_NAME".pem $DH_SIZE
 
