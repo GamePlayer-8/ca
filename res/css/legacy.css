@@ -1,0 +1,27 @@
+:root {
+    --legacy-coloring: #ffffff;
+    --legacy-opacity: 50%;
+}
+
+.legacy { 
+    * {
+        color: var(--legacy-coloring);
+    }
+
+}
+
+.legacy {
+    color: var(--legacy-coloring);
+    opacity: var(--legacy-opacity);
+    background-image: none;
+    box-shadow: none;
+    justify-content: center;
+    text-align: center;
+    padding-top: 25px;
+    display: block;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
