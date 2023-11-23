@@ -1,4 +1,3 @@
 creator/priv/
-creator-ready/
 creator/*configured.conf
-ca/certificate.srl
+created/

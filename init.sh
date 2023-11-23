@@ -1,17 +1,12 @@
 #!/bin/sh
 
-# Run carefully
+SCRIPT_PATH="$(dirname "$(realpath "$0")")"
 
-apk add --no-cache openssl bash
-cd /source
+cd "$SCRIPT_PATH"
 
 echo 'Executing setup...'
-sh /source/scripts/set.sh /source/docs/parser.conf /source/index.html
-sh /source/scripts/set.sh /source/docs/parser.conf /source/README.md
+sh scripts/set.sh res/parser.conf index.html
+sh scripts/set.sh res/parser.conf README.md
 
 echo 'Executing certificate launchpad setup...'
-sh /source/setup.sh
-
-mkdir -pv /runner/page/
-cp -rv /source/* /runner/page/
-cp -rv /source/.github /runner/page/
+sh setup.sh

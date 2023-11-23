@@ -2,12 +2,13 @@
 
 SCRIPT_PATH="$(dirname "$(realpath "$0")")"
 
-mkdir -p "$SCRIPT_PATH"/creator/priv
-cp -r "$SCRIPT_PATH"/creator "$SCRIPT_PATH"/creator-ready
+cd "$SCRIPT_PATH"
+rm -rf created
+cp -r creator created
 
-sh "$SCRIPT_PATH"/scripts/set.sh "$SCRIPT_PATH"/docs/parser.conf "$SCRIPT_PATH"/creator-ready/services.conf
-sh "$SCRIPT_PATH"/scripts/set.sh "$SCRIPT_PATH"/docs/parser.conf "$SCRIPT_PATH"/creator-ready/ca.conf
+if ! [ -d created/priv ]; then
+    mkdir -p created/priv
+fi
 
-# Disable for actions
-#sh "$SCRIPT_PATH"/creator-ready/main.sh
-#sh "$SCRIPT_PATH"/creator-ready/services.sh
+sh scripts/set.sh res/parser.conf created/www.conf
+sh scripts/set.sh res/parser.conf created/ca.conf

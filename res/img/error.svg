@@ -2,9 +2,9 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="210mm"
-   height="210mm"
-   viewBox="0 0 210 210"
+   width="196.62762mm"
+   height="173.93054mm"
+   viewBox="0 0 196.62763 173.93054"
    version="1.1"
    id="svg1"
    inkscape:version="1.3 (0e150ed6c4, 2023-07-21)"
@@ -23,39 +23,39 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
-     inkscape:zoom="0.1552773"
-     inkscape:cx="1130.2361"
-     inkscape:cy="531.30755"
+     inkscape:zoom="0.21959526"
+     inkscape:cx="289.16835"
+     inkscape:cy="446.27556"
      inkscape:window-width="1366"
-     inkscape:window-height="688"
+     inkscape:window-height="656"
      inkscape:window-x="0"
-     inkscape:window-y="28"
+     inkscape:window-y="44"
      inkscape:window-maximized="1"
      inkscape:current-layer="layer1"
      showgrid="false" />
   <defs
      id="defs1">
     <rect
-       x="81.798222"
+       x="81.798225"
        y="246.38715"
        width="151.99583"
-       height="262.81367"
+       height="262.81366"
        id="rect3" />
     <rect
-       x="76.008685"
+       x="76.008682"
        y="326.17523"
        width="138.98003"
-       height="281.94088"
+       height="281.94089"
        id="rect2" />
     <filter
        inkscape:menu-tooltip="Glowing metal texture"
        inkscape:menu="Bevels"
        inkscape:label="Glowing Metal"
-       style="color-interpolation-filters:sRGB;"
+       style="color-interpolation-filters:sRGB"
        id="filter4"
-       x="-0.50311455"
-       y="-0.57951712"
-       width="2.0062291"
+       x="-0.50311452"
+       y="-0.57951713"
+       width="2.0062292"
        height="2.1590366">
       <feGaussianBlur
          stdDeviation="0.76297209224598928"
@@ -80,9 +80,9 @@
       <feSpecularLighting
          in="result9"
          result="result1"
-         lighting-color="rgb(255,255,255)"
-         surfaceScale="0.56240121113885344"
-         specularConstant="1.566925048828125"
+         lighting-color="#ffffff"
+         surfaceScale="0.56240124"
+         specularConstant="1.56692505"
          specularExponent="50"
          id="feSpecularLighting3">
         <fePointLight
@@ -104,7 +104,9 @@
          k2="2"
          k3="0.8"
          in2="fbSourceGraphic"
-         id="feComposite4" />
+         id="feComposite4"
+         k1="0"
+         k4="0" />
       <feBlend
          in="result4"
          in2="result4"
@@ -115,11 +117,11 @@
        inkscape:menu-tooltip="Glowing metal texture"
        inkscape:menu="Bevels"
        inkscape:label="Glowing Metal"
-       style="color-interpolation-filters:sRGB;"
+       style="color-interpolation-filters:sRGB"
        id="filter7"
-       x="-0.80645161"
+       x="-0.80645162"
        y="-0.13736264"
-       width="2.6129032"
+       width="2.6129031"
        height="1.2747253">
       <feGaussianBlur
          stdDeviation="3"
@@ -144,9 +146,9 @@
       <feSpecularLighting
          in="result9"
          result="result1"
-         lighting-color="rgb(255,255,255)"
+         lighting-color="#ffffff"
          surfaceScale="1"
-         specularConstant="2.2"
+         specularConstant="2.20000005"
          specularExponent="45"
          id="feSpecularLighting5">
         <fePointLight
@@ -168,7 +170,9 @@
          k2="2"
          k3="0.8"
          in2="fbSourceGraphic"
-         id="feComposite7" />
+         id="feComposite7"
+         k1="0"
+         k4="0" />
       <feBlend
          in="result4"
          in2="result4"
@@ -181,10 +185,10 @@
        inkscape:label="Glowing Metal"
        style="color-interpolation-filters:sRGB"
        id="filter4-7"
-       x="-0.53931015"
-       y="-0.62121005"
-       width="2.0786203"
-       height="2.2424201">
+       x="-0.53931016"
+       y="-0.62121004"
+       width="2.0786202"
+       height="2.2424202">
       <feGaussianBlur
          stdDeviation="1.4447380514705883"
          result="result10"
@@ -209,9 +213,9 @@
          in="result9"
          result="result1"
          lighting-color="#ffffff"
-         surfaceScale="-0.64292357139980627"
-         specularConstant="0.5989137629872745"
-         specularExponent="28.93105261104623"
+         surfaceScale="-0.64292359"
+         specularConstant="0.59891379"
+         specularExponent="28.93105316"
          id="feSpecularLighting3-2">
         <fePointLight
            x="-5000"
@@ -245,12 +249,12 @@
        inkscape:menu-tooltip="Glowing metal texture"
        inkscape:menu="Bevels"
        inkscape:label="Glowing Metal"
-       style="color-interpolation-filters:sRGB;"
+       style="color-interpolation-filters:sRGB"
        id="filter10"
        x="-0.15145597"
        y="-0.12260721"
        width="1.3029119"
-       height="1.2452144">
+       height="1.2452143">
       <feGaussianBlur
          stdDeviation="2.0033239680815509"
          result="result10"
@@ -274,10 +278,10 @@
       <feSpecularLighting
          in="result9"
          result="result1"
-         lighting-color="rgb(255,255,255)"
-         surfaceScale="1.4303022561614043"
-         specularConstant="1.099128329876772"
-         specularExponent="36.967047307909148"
+         lighting-color="#ffffff"
+         surfaceScale="1.43030226"
+         specularConstant="1.09912837"
+         specularExponent="36.96704865"
          id="feSpecularLighting8">
         <fePointLight
            x="-5000"
@@ -298,7 +302,9 @@
          k2="2"
          k3="0.8"
          in2="fbSourceGraphic"
-         id="feComposite10" />
+         id="feComposite10"
+         k1="0"
+         k4="0" />
       <feBlend
          in="result4"
          in2="result4"
@@ -309,9 +315,9 @@
        inkscape:menu-tooltip="Glowing metal texture"
        inkscape:menu="Bevels"
        inkscape:label="Glowing Metal"
-       style="color-interpolation-filters:sRGB;"
+       style="color-interpolation-filters:sRGB"
        id="filter12"
-       x="-0.32795216"
+       x="-0.32795215"
        y="-0.26548508"
        width="1.6559043"
        height="1.5309702">
@@ -338,9 +344,9 @@
       <feSpecularLighting
          in="result9"
          result="result1"
-         lighting-color="rgb(255,255,255)"
-         surfaceScale="1.0038049442251928"
-         specularConstant="1.0876826650088596"
+         lighting-color="#ffffff"
+         surfaceScale="1.00380492"
+         specularConstant="1.08768272"
          specularExponent="50"
          id="feSpecularLighting7">
         <fePointLight
@@ -362,27 +368,114 @@
          k2="2"
          k3="0.8"
          in2="fbSourceGraphic"
-         id="feComposite12" />
+         id="feComposite12"
+         k1="0"
+         k4="0" />
       <feBlend
          in="result4"
          in2="result4"
          mode="multiply"
          id="feBlend12" />
     </filter>
+    <filter
+       style="color-interpolation-filters:sRGB"
+       inkscape:label="Diffuse Light"
+       id="filter35"
+       x="-0.12975779"
+       y="-0.10504202"
+       width="1.2595156"
+       height="1.210084">
+      <feGaussianBlur
+         in="SourceGraphic"
+         stdDeviation="6"
+         result="blur"
+         id="feGaussianBlur34" />
+      <feDiffuseLighting
+         diffuseConstant="1"
+         surfaceScale="10"
+         lighting-color="#ffffff"
+         result="diffuse"
+         id="feDiffuseLighting34">
+        <feDistantLight
+           elevation="25"
+           azimuth="235"
+           id="feDistantLight34" />
+      </feDiffuseLighting>
+      <feComposite
+         in="diffuse"
+         in2="diffuse"
+         operator="arithmetic"
+         k1="1"
+         result="composite1"
+         id="feComposite34"
+         k2="0"
+         k3="0"
+         k4="0" />
+      <feComposite
+         in="composite1"
+         in2="SourceGraphic"
+         k1="1"
+         operator="arithmetic"
+         k3="1"
+         result="composite2"
+         id="feComposite35"
+         k2="0"
+         k4="0" />
+    </filter>
+    <filter
+       style="color-interpolation-filters:sRGB"
+       inkscape:label="Diffuse Light"
+       id="filter37"
+       x="-0.071065458"
+       y="-0.081856839"
+       width="1.1421309"
+       height="1.1637161">
+      <feGaussianBlur
+         in="SourceGraphic"
+         stdDeviation="0.59999999999999998"
+         result="blur"
+         id="feGaussianBlur35" />
+      <feDiffuseLighting
+         diffuseConstant="0.94285715"
+         surfaceScale="10"
+         lighting-color="#ffffff"
+         result="diffuse"
+         id="feDiffuseLighting35">
+        <feDistantLight
+           elevation="25"
+           azimuth="291"
+           id="feDistantLight35" />
+      </feDiffuseLighting>
+      <feComposite
+         in="diffuse"
+         in2="diffuse"
+         operator="arithmetic"
+         k1="1"
+         result="composite1"
+         id="feComposite36"
+         k2="0"
+         k3="0"
+         k4="0" />
+      <feComposite
+         in="composite1"
+         in2="SourceGraphic"
+         k1="1"
+         operator="arithmetic"
+         k3="0.80213904"
+         result="composite2"
+         id="feComposite37"
+         k2="0"
+         k4="0" />
+    </filter>
   </defs>
   <g
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
-     id="layer1">
-    <path
-       d="m 213.28483,421.08275 h -19.584 l -36.288,-59.52 -36.864,59.52 h -18.24 l 45.504,-71.424 -42.624,-65.664 h 19.2 l 33.6,53.76 33.792,-53.76 h 18.24 l -42.432,65.28 z"
-       id="text2"
-       style="font-size:192px;text-align:center;white-space:pre;fill:#ff1e1e;stroke-width:1.00157;filter:url(#filter12)"
-       transform="matrix(0.47503716,0,0,0.47503716,30.040642,-34.400042)"
-       aria-label="X" />
+     id="layer1"
+     transform="translate(-6.6861697,-18.034732)">
     <path
        sodipodi:type="star"
-       style="fill:none;fill-opacity:0.550341;stroke:#f40000;stroke-width:1.19639;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:9.44882;stroke-opacity:1;paint-order:markers fill stroke;filter:url(#filter4)"
+       style="fill:#3b0900;fill-opacity:1;stroke:#f40000;stroke-width:1.19639;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:9.44882;stroke-opacity:1;paint-order:markers fill stroke;filter:url(#filter37)"
        id="path2"
        inkscape:flatsided="true"
        sodipodi:sides="3"
@@ -397,10 +490,11 @@
        d="m 47.768631,141.156 -28.679919,0.12248 14.233889,-24.89877 z"
        inkscape:transform-center-y="-2.3125535e-05"
        transform="matrix(6.002757,0,0,6.002757,-95.664201,-668.32993)" />
-    <text
-       xml:space="preserve"
-       transform="matrix(0.47503716,0,0,0.47503716,104.76248,104.76248)"
-       id="text1"
-       style="font-size:192px;text-align:center;white-space:pre;shape-inside:url(#rect2);display:inline;fill:#f6ff2c;fill-opacity:1;stroke:#f4f100;stroke-width:11.3386;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:9.44882;stroke-opacity:1;paint-order:markers fill stroke;filter:url(#filter7)" />
+    <path
+       d="m 213.28483,421.08275 h -19.584 l -36.288,-59.52 -36.864,59.52 h -18.24 l 45.504,-71.424 -42.624,-65.664 h 19.2 l 33.6,53.76 33.792,-53.76 h 18.24 l -42.432,65.28 z"
+       id="text2"
+       style="font-size:192px;text-align:center;white-space:pre;fill:#ff691e;fill-opacity:1;stroke-width:1.00157;filter:url(#filter35)"
+       transform="matrix(0.47503715,0,0,0.47503715,30.040641,-34.400043)"
+       aria-label="X" />
   </g>
 </svg>
