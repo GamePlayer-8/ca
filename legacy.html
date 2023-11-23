@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<html lang="en-US">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Certificates</title>
+  <meta name="icon" content="res/img/icon.svg" />
+  <meta name="viewport" content="width=device-width,height=device-height,initial-scale=1.0" />
+  <link rel="stylesheet" href="res/css/viewport.css" />
+  <link rel="stylesheet" href="res/css/legacy/scroll.css" />
+  <link rel="stylesheet" href="res/css/legacy/style.css" />
+  <link rel="stylesheet" href="res/css/legacy/lgbt.css" />
+  <link rel="icon" href="res/img/icon.svg" />
+</head>
+
+<body>
+  <div class="header">
+    <b class="trans-text-horizontal">%REALNAME%</b>
+    <div>
+      <a href="index.html" class="darkweb"><i>New website</i></a>
+    </div>
+    <b>Certificates</b>
+  </div>
+
+  <div class="content">
+    A certificate for web browsers is available <a href="ca/certificate.crt">here</a>.
+
+    <br/>
+    <br/>
+    Installation:
+    <br/>
+
+    For Linux you can use an installer for Debian-based distros (<a href="installers/cert_debian.sh">link here</a>)
+    and for Arch-based distros (<a href="installers/cert_arch.sh">link here</a>). Eventually you can follow the instructions
+    of how to install a custom CA for your distro.
+
+    <br/><br/>
+
+    For Windows there's a batch file <a href="installers/cert_windows.bat">installer</a>. You can run it through <b>cmd.exe</b>
+    or by clicking on it.
+
+    <br/><br/>
+
+    For Mac OS X you will need to download a <a href="ca/certificate.crt">certificate file</a>, open it with your file explorer
+    and in the popup menu, press <b>Always Trust</b>.
+
+    <br/><br/>
+
+    For Android you will need to download a <a href="ca/certificate.crt">certificate file</a>,
+    <br/>
+    go to the <b>device settings</b> -> <b>Security</b> -> <b>Encryption & Credentials</b> -> <b>Install from storage</b>
+    -> <b>Install a certificate</b> -> <b>select CA Certificate</b> -> <b>Pick the downloaded certificate</b> and add it.
+  </div>
+
+  <div class="blahaj">
+    <img src="res/img/blahaj.png" width="50" alt=":shork:"/>
+  </div>
+
+  <div class="footer">
+    This site is <a href="%GIT_DOMAIN%/%GIT_USERNAME%/%GIT_PROJECT_NAME%"><i>open source</i></a> on Akini License.
+  </div>
+
+</body>
+
+</html>
