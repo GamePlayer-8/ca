@@ -47,5 +47,5 @@ Thank you for trusting XaviaMa certificate registry!
 
 ### License
 
-***Akini License 4.0***
+On [Akini License](LICENSE.txt).
 
