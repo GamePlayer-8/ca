@@ -1,0 +1,16 @@
+# .woodpecker.yml
+when:
+  branch: [main, dev]
+
+steps:
+  setup:
+    image: alpine
+
+    commands:
+      - sh setup.sh
+  
+  test:
+    image: alpine
+
+    commands:
+      - sh test.sh
