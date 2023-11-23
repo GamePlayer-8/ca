@@ -11,4 +11,6 @@ sh scripts/set.sh res/parser.conf README.md
 
 sh index.sh
 
+apk add --no-cache sed
+
 sed -i 's/index.html//g' .gitignore
