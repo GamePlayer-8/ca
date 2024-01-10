@@ -5,7 +5,7 @@ KEYS_PATH="${KEYS_PATH:-$SCRIPT_PATH/priv}"
 CA_NAME="${CA_NAME:-ca}"
 CA_PASSWD="${CA_PASSWD:-ca.passwd}"
 WWW_NAME="${WWW_NAME:-services}"
-WWW_CONF="${CA_CONF:-../www.conf}"
+WWW_CONF="${WWW_CONF:-../www.conf}"
 WWW_SIZE="${WWW_SIZE:-16384}"
 
 if ! [ -d "$KEYS_PATH" ]; then
