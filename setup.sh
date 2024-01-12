@@ -12,3 +12,4 @@ fi
 
 sh scripts/set.sh res/parser.conf created/www.conf
 sh scripts/set.sh res/parser.conf created/ca.conf
+sh scripts/set.sh res/parser.conf created/web.conf
