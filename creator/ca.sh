@@ -65,11 +65,13 @@ if ! [ -f "$CA_NAME".crt ]; then
             -x509 \
             -new \
             -nodes \
+            -CAcreateserial \
             -key "$CA_NAME".key \
             -passin "file:$TMP_PASSWD" \
             -sha256 \
             -days 1095 \
             -config "$CA_CONF" \
+            -addext basicConstraints=critical,CA:TRUE,pathlen:0 \
             -out "$CA_NAME".crt
 fi
 
